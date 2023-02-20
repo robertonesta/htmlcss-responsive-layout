@@ -8,7 +8,7 @@
 
 :root{
     --rl-dark: #000000;
-    --rl-light: ##ffffff;
+    --rl-light: #ffffff;
     --rl-lightblue: #0084fd;
     --rl-lighterblue: #b5ddff;
     --rl-violet: #9792e4;
@@ -49,12 +49,14 @@ section, .demo{
 #about,
 #call_to_action
 {
-    height: 500px;
+    height: 700px;
 }
 
 [class^="col"]
 {
     padding: 0 1rem;
+    border: 1px dashed;
+    height: 150px;
 }
 
 .col_1 {
@@ -113,6 +115,36 @@ section, .demo{
     height: 70px;
 }
 
+nav{
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+nav .logo img {
+    height: 1.5rem;
+}
+
+nav ul {
+    display: none;
+}
+
+nav .menu *{
+    margin: 0 0.5rem;
+    display: none;
+}
+
+nav li>a {
+    text-decoration: none;
+    color: var(--rl-light);
+}
+
+nav .menu button {
+    background-color: var(--white);
+    color: var(--rl-footerbg);
+}
+
 /* main */
 
 #demo,
@@ -127,10 +159,6 @@ section, .demo{
 #call_to_action
 {
     background-color: var(--rl-violet);
-}
-
-.testimonial{
-    margin: 1rem 0;
 }
 
 /* footer */
