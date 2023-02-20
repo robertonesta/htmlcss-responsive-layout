@@ -5,7 +5,12 @@
 }
 
 :root{
-
+    --rl-dark: #000000;
+    --rl-light: ##ffffff;
+    --rl-lightblue: #0084fd;
+    --rl-lighterblue: #b5ddff;
+    --rl-violet: #9792e4;
+    --rl-footerbg: #333333;
 }
 
 /* header */
