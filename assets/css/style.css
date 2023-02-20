@@ -92,3 +92,9 @@ body {
     height: 70px;
 }
 
+/* footer */
+
+#site_footer{
+    background-color: var(--rl-footerbg);
+    height: 200px;
+}
