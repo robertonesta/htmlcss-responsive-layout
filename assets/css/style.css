@@ -42,6 +42,16 @@ section, .demo{
     margin: 0 -1rem;
 }
 
+#demo,
+#planning,
+#testimonials,
+#benefits,
+#about,
+#call_to_action
+{
+    height: 500px;
+}
+
 [class^="col"]
 {
     padding: 0 1rem;
@@ -105,10 +115,22 @@ section, .demo{
 
 /* main */
 
-[class^="col"]
+#demo,
+#testimonials,
+#about
 {
-    height: 300px;
-    border: 1px dashed;
+    background-color: var(--rl-light);
+}
+
+#planning,
+#benefits,
+#call_to_action
+{
+    background-color: var(--rl-violet);
+}
+
+.testimonial{
+    margin: 1rem 0;
 }
 
 /* footer */
