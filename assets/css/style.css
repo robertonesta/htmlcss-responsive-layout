@@ -33,6 +33,7 @@ section, .demo{
 
 .d-flex{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .row {
@@ -121,6 +122,10 @@ section, .demo{
 
 @media screen and (min-width: 768px)
 {
+    .container{
+        width: 90%
+    }
+
     .col_md_1 {
         width: calc(100% / 12);
     }  
@@ -173,6 +178,9 @@ section, .demo{
 
 @media screen and (min-width: 1200px)
 {
+    .container{
+        width: 1140px;
+    }
     .col_lg_1 {
         width: calc(100% / 12);
     }  
