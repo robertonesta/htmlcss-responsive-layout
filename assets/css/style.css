@@ -1,3 +1,5 @@
+/* common */
+
 *{
     margin: 0;
     padding: 0;
@@ -13,9 +15,80 @@
     --rl-footerbg: #333333;
 }
 
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* utilities */
+  
+.container{
+    width: 80%;
+    max-width: 1152px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+
+.col_1 {
+    width: calc(100% / 12);
+}  
+
+.col_2 {
+    width: calc((100% / 12) * 2);
+}  
+
+.col_3 {
+    width: calc((100% / 12) * 3);
+}  
+
+.col_4 {
+    width: calc((100% / 12) * 4);
+}  
+
+.col_5 {
+    width: calc((100% / 12) * 5);
+}  
+
+.col_6 {
+    width: 50%;
+}  
+
+.col_7 {
+    width: calc((100% / 12) * 7);
+}  
+
+.col_8 {
+    width: calc((100% / 12) * 8);
+}
+ 
+.col_9 {
+    width: calc((100% / 12) * 9);
+} 
+
+.col_10 {
+    width: calc((100% / 12) * 10);
+} 
+
+.col_11 {
+    width: calc((100% / 12) * 11);
+}  
+
+.col_12 {
+    width: 100%;
+}
+  
+
 /* header */
 
 #site_header{
     background-color: var(--rl-lightblue);
     height: 70px;
 }
+
