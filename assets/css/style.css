@@ -246,7 +246,7 @@ nav li > a{
 }
 #planning .card{
     background-color: var(--rl-light);
-    border-radius: 1rem;
+    border-radius: 3rem;
     padding: 2rem;
 }
 #planning a{
@@ -267,6 +267,37 @@ nav li > a{
 }
 #planning .right{
     padding-top: 3rem;
+}
+
+/* Testimonials */
+
+#testimonials .card img {
+    width: 60%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#testimonials blockquote::before {
+    font: var(--fa-font-solid);
+    content: "\f10d";
+    padding-right: 10px;
+}
+  
+#testimonials blockquote::after {
+    font: var(--fa-font-solid);
+    content: "\f10e";
+    padding-left: 10px;
+}
+
+#testimonials .card{
+    background-color: var(--rl-violet);
+    color: var(--rl-light);
+}
+
+#testimonials h2{
+    font-size: 2rem;
+    color: var(--rl-violet);
 }
 /* footer */
 
