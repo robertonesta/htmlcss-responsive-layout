@@ -357,6 +357,46 @@ nav li > a{
     border-radius: 1rem;
 }
 
+/*About us */
+#about .container{
+    width: 60%;
+}
+#about h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--rl-violet);
+    margin: 1rem;
+}
+
+#about p{
+    margin: 1rem;
+    line-height: 1.5rem;
+}
+
+#about img{
+    max-width: 100%;
+    width: 50%;
+    border-radius: 50%;
+    margin: 1rem auto;
+    justify-content: center;
+}
+
+#about blockquote{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--rl-violet);
+    padding: 1rem;
+}
+
+#about a{
+    text-decoration: none;
+    padding-bottom: 1rem;
+    background-color: var(--rl-violet);
+    color: var(--rl-light);
+    padding: 0.25rem 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
 /* footer */
 
 #site_footer{
