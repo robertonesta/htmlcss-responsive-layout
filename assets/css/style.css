@@ -270,6 +270,12 @@ nav li > a{
 }
 
 /* Testimonials */
+#testimonials{
+    padding: 2rem 0;
+}
+#testimonials .col_12{
+    margin: 1rem 0;
+}
 
 #testimonials .card img {
     width: 60%;
@@ -293,11 +299,20 @@ nav li > a{
 #testimonials .card{
     background-color: var(--rl-violet);
     color: var(--rl-light);
+    padding: 2rem 0;
+    margin: 0 -1rem;
+    border-radius: 3rem;
 }
 
 #testimonials h2{
     font-size: 2rem;
     color: var(--rl-violet);
+    margin: 2rem 0;
+}
+
+
+#testimonials blockquote{
+    margin: 2rem;
 }
 /* footer */
 
@@ -421,11 +436,35 @@ nav li > a{
     .col_lg_12 {
         width: 100%;
     }
+
+    #site_header{
+        display: block;
+    }
+
+    #site_header .settings{
+        display: none;
+
+    }
     
     #planning .col_lg_6{
         display: flex;
         flex-direction: column;
         align-items: flex-end;
     }
+
+    #testimonials img{
+        max-width: 10%;
+        margin-left: 1rem;
+    }
+
+    .testimonial_text{
+        width: 70%;
+        text-align: start;
+    }
+
+    #testimonials span{
+        margin-left: 2rem;
+    }
+
 
 }
