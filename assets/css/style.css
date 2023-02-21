@@ -310,10 +310,53 @@ nav li > a{
     margin: 2rem 0;
 }
 
-
 #testimonials blockquote{
     margin: 2rem;
 }
+
+/* Benefits */
+
+#benefits h2{
+    margin: 2rem 0;
+    color: var(--rl-light);
+    font-size: 2rem;
+    text-align: center;
+}
+
+#benefits .card{
+    background-color: var(--rl-light);
+    border-radius: 1rem;
+    padding: 1rem;
+    max-height: 100%;
+    margin: 1rem;
+}
+
+#benefits .card .benefit,
+#benefits .card h4,
+#benefits .card .benefit_btn{
+    font-weight: 700;
+}
+
+#benefits .card .benefit,
+#benefits .card h4,
+#benefits .card p
+{
+    color: var(--rl-violet);
+    margin: 1rem;
+}
+
+.benefit{
+    font-size: 3rem;
+}
+.benefit_btn{
+    margin: 1rem;
+    padding: 0.25rem 2.5rem;
+    background-color: var(--rl-violet);
+    text-decoration: none;
+    color: var(--rl-light);
+    border-radius: 1rem;
+}
+
 /* footer */
 
 #site_footer{
