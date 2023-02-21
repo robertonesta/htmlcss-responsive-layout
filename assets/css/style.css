@@ -67,7 +67,6 @@ section, .demo{
 [class^="col"]
 {
     padding: 0 1rem;
-    border: 1px dashed;
     height: 100%;
 }
 
@@ -359,9 +358,7 @@ nav li > a{
 }
 
 /* About */
-#about .container{
-    width: 60%;
-}
+
 #about h2{
     font-size: 3rem;
     font-weight: 700;
@@ -444,10 +441,18 @@ nav li > a{
 }
 
 /* footer */
+#site_footer .container{
+    width: 40%;
+    padding: 1rem;
+}
 
 #site_footer{
+    color: var(--rl-light);
     background-color: var(--rl-footerbg);
-    height: 200px;
+}
+
+.ft_link{
+    color: var(--rl-violet);
 }
 
 /* responsive layout */
